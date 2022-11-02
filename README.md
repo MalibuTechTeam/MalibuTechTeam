@@ -20,8 +20,10 @@
       <img src="https://img.shields.io/badge/Support%20Us-grey?style=for-the-badge&logo=kofi&logoColor=white" alt=""/>
     </a>
   </div>
+    <a href="https://github.com/MalibuTechTeam">
+      <img src="https://komarev.com/ghpvc/?username=MalibuTechTeam&style=flat-square&color=blue" alt=""/>
+    </a>
 </div>
-
 
 <div align="center">
   <img src="https://media.giphy.com/media/KgFWejP5Dby1G1o9TG/giphy.gif" width="600" height="300"/>
@@ -38,11 +40,9 @@ Given our occupation as developers, counting on more than 3 years of experience 
 Take a look at our server and let the bull go wild!
 
 <div align="center">
-  <a href="https://ko-fi.com/thelindat"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=Moldrok&count_private=true&show_icons=true&theme=synthwave"/></a>
-  <a href="https://ko-fi.com/lukewastaken"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&count_private=true&show_icons=true&theme=synthwave"/>
-  </a>
-  <a href="https://ko-fi.com/lukewastaken"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=AndreIakko&count_private=true&show_icons=true&theme=synthwave"/>
-  </a>
+  <a href="https://github.com/Moldrok"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=Moldrok&count_private=true&show_icons=true&theme=synthwave"/></a>
+  <a href="https://github.com/DarkSide0fTheCode"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&count_private=true&show_icons=true&theme=synthwave"/></a>
+  <a href="https://github.com/AndreIakko"><img width="45%" src="https://github-readme-stats.vercel.app/api?username=AndreIakko&count_private=true&show_icons=true&theme=synthwave"/></a>
 </div>
 
 ---
