@@ -29,6 +29,10 @@
   <img src="https://media.giphy.com/media/KgFWejP5Dby1G1o9TG/giphy.gif" width="600" height="300"/>
 </div>
 
+<div align="center">
+ <a href="//www.dmca.com/Protection/Status.aspx?ID=91018a5c-ecd2-440d-8a32-d94b2cecca80" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_26_120.png?ID=91018a5c-ecd2-440d-8a32-d94b2cecca80"  alt="DMCA.com Protection Status" /></a>
+</div>
+
 ---
 
 Malibù Tech comes from the desire of a group of friends who wanted to test themselves as developers on a new environment starting from the scratch. 
