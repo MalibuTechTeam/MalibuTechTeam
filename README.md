@@ -10,7 +10,7 @@
     <a href="https://www.twitch.tv/malibutech">
       <img src="https://img.shields.io/badge/Twitch-purple?logo=twitch&logoColor=white&style=for-the-badge" alt="Twitch Badge"/>
     </a>
-    <a href="https://www.youtube.com/channel/UCryLhBJnX_CCmnaAOfJmdYA">
+    <a href="https://www.youtube.com/@iakkomaps8702">
       <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
     </a>
     <a href="https://discord.gg/tqk3kAEr4f">
