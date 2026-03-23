@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="50" viewBox="0 0 880 50">
+  <defs>
+    <style><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+    ]]></style>
+  </defs>
+  <rect width="880" height="50" fill="#0a1018"/>
+  <line x1="20"  y1="25" x2="338" y2="25" stroke="#208868" stroke-width="0.7" stroke-opacity="0.5"/>
+  <text x="440" y="30"
+        font-family="Outfit, sans-serif" font-weight="700" font-size="12"
+        fill="#4DD9A2" text-anchor="middle" letter-spacing="5">TECH  STACK</text>
+  <line x1="542" y1="25" x2="860" y2="25" stroke="#4DD9A2" stroke-width="0.7" stroke-opacity="0.5"/>
+</svg>
