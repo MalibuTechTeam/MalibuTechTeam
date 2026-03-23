@@ -1,51 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="430" height="226" viewBox="0 0 430 226">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <defs>
     <style><![CDATA[
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap');
     ]]></style>
     <radialGradient id="ag" cx="0%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#1c1c1c" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#208868" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0d1b2e" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="430" height="226" fill="#1c1c1c" rx="14"/>
-  <rect width="430" height="226" fill="url(#ag)"   rx="14"/>
-  <rect width="428" height="224" x="1" y="1" fill="none"
-        stroke="#7C3AED" stroke-width="1" stroke-opacity="0.45" rx="14"/>
+  <rect width="495" height="195" fill="#0d1b2e" rx="14"/>
+  <rect width="495" height="195" fill="url(#ag)"   rx="14"/>
+  <rect width="493" height="193" x="1" y="1" fill="none"
+        stroke="#208868" stroke-width="1" stroke-opacity="0.45" rx="14"/>
 
   <!-- Label -->
-  <rect x="20" y="20" width="108" height="25" fill="#7C3AED" fill-opacity="0.15" rx="5"/>
-  <rect x="20" y="20" width="108" height="25" fill="none"
-        stroke="#7C3AED" stroke-width="0.8" stroke-opacity="0.5" rx="5"/>
-  <text x="74" y="37"
+  <rect x="18" y="16" width="108" height="24" fill="#208868" fill-opacity="0.15" rx="5"/>
+  <rect x="18" y="16" width="108" height="24" fill="none"
+        stroke="#208868" stroke-width="0.8" stroke-opacity="0.5" rx="5"/>
+  <text x="72" y="32"
         font-family="Outfit, sans-serif" font-weight="700" font-size="11"
-        fill="#8b5cf6" text-anchor="middle" letter-spacing="2">WHO WE ARE</text>
+        fill="#60a5fa" text-anchor="middle" letter-spacing="2">WHO WE ARE</text>
 
-  <line x1="20" y1="62" x2="410" y2="62"
-        stroke="#7C3AED" stroke-width="0.5" stroke-opacity="0.35"/>
+  <line x1="18" y1="54" x2="477" y2="54"
+        stroke="#208868" stroke-width="0.5" stroke-opacity="0.35"/>
 
   <!-- Body -->
-  <text x="20" y="88"
-        font-family="Outfit, sans-serif" font-weight="700" font-size="15"
+  <text x="18" y="76"
+        font-family="Outfit, sans-serif" font-weight="700" font-size="14"
         fill="#ffffff">Born from passion. Built with precision.</text>
 
-  <text x="20" y="115" font-family="Outfit, sans-serif" font-size="12.5" fill="#ffffffb3">
-    A team of developers with 3+ years in FiveM,
-  </text>
-  <text x="20" y="133" font-family="Outfit, sans-serif" font-size="12.5" fill="#ffffffb3">
-    combining originality with optimal performance.
-  </text>
-  <text x="20" y="161" font-family="Outfit, sans-serif" font-size="12.5" fill="#ffffffb3">
-    We craft scripts &amp; maps that bring a breath of
-  </text>
-  <text x="20" y="179" font-family="Outfit, sans-serif" font-size="12.5" fill="#ffffffb3">
-    fresh air to every serious FiveM server.
-  </text>
+  <text x="18" y="100" font-family="Outfit, sans-serif" font-size="12" fill="#ffffffb3">A team of developers with 3+ years in FiveM,</text>
+  <text x="18" y="116" font-family="Outfit, sans-serif" font-size="12" fill="#ffffffb3">combining originality with optimal performance.</text>
+  <text x="18" y="140" font-family="Outfit, sans-serif" font-size="12" fill="#ffffffb3">We craft scripts &amp; maps that bring a breath of</text>
+  <text x="18" y="156" font-family="Outfit, sans-serif" font-size="12" fill="#ffffffb3">fresh air to every serious FiveM server.</text>
 
-  <line x1="20" y1="204" x2="410" y2="204"
-        stroke="#0ea5e9" stroke-width="0.5" stroke-opacity="0.35"/>
-  <text x="20" y="218"
+  <line x1="18" y1="174" x2="477" y2="174"
+        stroke="#60a5fa" stroke-width="0.5" stroke-opacity="0.35"/>
+  <text x="18" y="187"
         font-family="Outfit, sans-serif" font-size="10"
-        fill="#0ea5e9" letter-spacing="1" opacity="0.7">malibutechteam.com  •  MBT</text>
+        fill="#60a5fa" letter-spacing="1" opacity="0.7">malibutechteam.com  •  MBT</text>
 </svg>

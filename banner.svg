@@ -7,17 +7,16 @@
       <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.04"/>
     </pattern>
     <radialGradient id="g1" cx="22%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0d5c3a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="g2" cx="78%" cy="55%" r="55%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#208868" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#7C3AED"/>
-      <stop offset="48%"  stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
@@ -26,7 +25,7 @@
   </defs>
 
   <!-- Base + dot grid -->
-  <rect width="880" height="180" fill="#111111" rx="14"/>
+  <rect width="880" height="180" fill="#000000" rx="14"/>
   <rect width="880" height="180" fill="url(#dots)" rx="14"/>
 
   <!-- Colour glows -->
@@ -35,30 +34,30 @@
 
   <!-- Outer border -->
   <rect width="878" height="178" x="1" y="1" fill="none"
-        stroke="#7C3AED" stroke-width="1" stroke-opacity="0.55" rx="14"/>
+        stroke="#60a5fa" stroke-width="1" stroke-opacity="0.4" rx="14"/>
 
   <!-- Top accent lines + corner dots -->
-  <line x1="44" y1="38" x2="290" y2="38" stroke="#7C3AED"     stroke-width="0.7" stroke-opacity="0.6"/>
-  <line x1="590" y1="38" x2="836" y2="38" stroke="#7C3AED" stroke-width="0.7" stroke-opacity="0.6"/>
-  <circle cx="37"  cy="38"  r="3.5" fill="#7C3AED"     opacity="0.9"/>
-  <circle cx="843" cy="38"  r="3.5" fill="#7C3AED" opacity="0.9"/>
+  <line x1="44" y1="38" x2="290" y2="38" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
+  <line x1="590" y1="38" x2="836" y2="38" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
+  <circle cx="37"  cy="38"  r="3.5" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="843" cy="38"  r="3.5" fill="#60a5fa" opacity="0.8"/>
 
   <!-- Bottom accent lines + corner dots -->
-  <line x1="44" y1="142" x2="290" y2="142" stroke="#7C3AED" stroke-width="0.7" stroke-opacity="0.6"/>
-  <line x1="590" y1="142" x2="836" y2="142" stroke="#7C3AED"     stroke-width="0.7" stroke-opacity="0.6"/>
-  <circle cx="37"  cy="142" r="3.5" fill="#7C3AED" opacity="0.9"/>
-  <circle cx="843" cy="142" r="3.5" fill="#7C3AED"     opacity="0.9"/>
+  <line x1="44" y1="142" x2="290" y2="142" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
+  <line x1="590" y1="142" x2="836" y2="142" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
+  <circle cx="37"  cy="142" r="3.5" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="843" cy="142" r="3.5" fill="#60a5fa" opacity="0.8"/>
 
   <!-- Main title -->
   <text x="440" y="101"
         font-family="Outfit, sans-serif" font-weight="900" font-size="52"
-        fill="url(#titleGrad)" text-anchor="middle"
+        fill="#ffffff" text-anchor="middle"
         letter-spacing="10" filter="url(#glow)">MALIBU TECH TEAM</text>
 
   <!-- Subtitle -->
   <text x="440" y="130"
         font-family="Outfit, sans-serif" font-weight="400" font-size="13"
-        fill="#7C3AED" text-anchor="middle" letter-spacing="5" opacity="0.85">
+        fill="#60a5fa" text-anchor="middle" letter-spacing="5" opacity="0.9">
     PREMIUM FIVEM RESOURCES  •  SCRIPTS &amp; MAPS
   </text>
 </svg>

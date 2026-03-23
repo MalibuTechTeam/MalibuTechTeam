@@ -16,18 +16,22 @@ Color palette (from mbt_tebexSite):
 """
 
 # ── Palette ────────────────────────────────────────────────────────────────────
-BG        = "#111111"
-BG_CARD   = "#1c1c1c"
-VIOLET    = "#7C3AED"
-VIOLET_L  = "#8b5cf6"
-BLUE      = "#0ea5e9"
-ROSE      = "#fa0552"
+BG        = "#000000"   # pure black
+BG_CARD   = "#0d1b2e"   # dark navy (card surfaces)
+NAVY_D    = "#071526"   # deepest navy (gradients)
+BLUE_L    = "#60a5fa"   # light blue (titles — readable on dark navy)
+GREEN     = "#208868"   # soft emerald (borders, accents — not blinding)
+GREEN_D   = "#0d5c3a"   # deep green (subtle borders, shadows)
+ROSE      = "#fa0552"   # rose (stars)
 WHITE     = "#ffffff"
 MUTED     = "#ffffffb3"
 
-# aliases
-PRIMARY  = VIOLET
-MID      = VIOLET
+# aliases used by shared SVG code
+VIOLET   = GREEN        # border/stroke colour
+VIOLET_L = BLUE_L       # label text colour
+PRIMARY  = GREEN        # main accent (borders, dots)
+MID      = GREEN_D      # secondary accent (gradients)
+BLUE     = BLUE_L       # subtitle text
 
 
 def generate_banner():
@@ -49,9 +53,8 @@ def generate_banner():
       <stop offset="100%" stop-color="{BG}" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="{MID}"/>
-      <stop offset="48%"  stop-color="{WHITE}"/>
-      <stop offset="100%" stop-color="{PRIMARY}"/>
+      <stop offset="0%"   stop-color="{WHITE}"/>
+      <stop offset="100%" stop-color="{WHITE}"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
@@ -69,30 +72,30 @@ def generate_banner():
 
   <!-- Outer border -->
   <rect width="878" height="178" x="1" y="1" fill="none"
-        stroke="{VIOLET}" stroke-width="1" stroke-opacity="0.55" rx="14"/>
+        stroke="{BLUE_L}" stroke-width="1" stroke-opacity="0.4" rx="14"/>
 
   <!-- Top accent lines + corner dots -->
-  <line x1="44" y1="38" x2="290" y2="38" stroke="{MID}"     stroke-width="0.7" stroke-opacity="0.6"/>
-  <line x1="590" y1="38" x2="836" y2="38" stroke="{PRIMARY}" stroke-width="0.7" stroke-opacity="0.6"/>
-  <circle cx="37"  cy="38"  r="3.5" fill="{MID}"     opacity="0.9"/>
-  <circle cx="843" cy="38"  r="3.5" fill="{PRIMARY}" opacity="0.9"/>
+  <line x1="44" y1="38" x2="290" y2="38" stroke="{BLUE_L}" stroke-width="0.7" stroke-opacity="0.5"/>
+  <line x1="590" y1="38" x2="836" y2="38" stroke="{BLUE_L}" stroke-width="0.7" stroke-opacity="0.5"/>
+  <circle cx="37"  cy="38"  r="3.5" fill="{BLUE_L}" opacity="0.8"/>
+  <circle cx="843" cy="38"  r="3.5" fill="{BLUE_L}" opacity="0.8"/>
 
   <!-- Bottom accent lines + corner dots -->
-  <line x1="44" y1="142" x2="290" y2="142" stroke="{PRIMARY}" stroke-width="0.7" stroke-opacity="0.6"/>
-  <line x1="590" y1="142" x2="836" y2="142" stroke="{MID}"     stroke-width="0.7" stroke-opacity="0.6"/>
-  <circle cx="37"  cy="142" r="3.5" fill="{PRIMARY}" opacity="0.9"/>
-  <circle cx="843" cy="142" r="3.5" fill="{MID}"     opacity="0.9"/>
+  <line x1="44" y1="142" x2="290" y2="142" stroke="{BLUE_L}" stroke-width="0.7" stroke-opacity="0.5"/>
+  <line x1="590" y1="142" x2="836" y2="142" stroke="{BLUE_L}" stroke-width="0.7" stroke-opacity="0.5"/>
+  <circle cx="37"  cy="142" r="3.5" fill="{BLUE_L}" opacity="0.8"/>
+  <circle cx="843" cy="142" r="3.5" fill="{BLUE_L}" opacity="0.8"/>
 
   <!-- Main title -->
   <text x="440" y="101"
         font-family="Outfit, sans-serif" font-weight="900" font-size="52"
-        fill="url(#titleGrad)" text-anchor="middle"
+        fill="{WHITE}" text-anchor="middle"
         letter-spacing="10" filter="url(#glow)">MALIBU TECH TEAM</text>
 
   <!-- Subtitle -->
   <text x="440" y="130"
         font-family="Outfit, sans-serif" font-weight="400" font-size="13"
-        fill="{PRIMARY}" text-anchor="middle" letter-spacing="5" opacity="0.85">
+        fill="{BLUE_L}" text-anchor="middle" letter-spacing="5" opacity="0.9">
     PREMIUM FIVEM RESOURCES  \u2022  SCRIPTS &amp; MAPS
   </text>
 </svg>"""
@@ -102,8 +105,9 @@ def generate_banner():
 
 
 def generate_about():
+    # Same width as a stats card (~495px) and roughly same height (~195px)
     svg = f"""\
-<svg xmlns="http://www.w3.org/2000/svg" width="430" height="226" viewBox="0 0 430 226">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <defs>
     <style><![CDATA[
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap');
@@ -114,43 +118,35 @@ def generate_about():
     </radialGradient>
   </defs>
 
-  <rect width="430" height="226" fill="{BG_CARD}" rx="14"/>
-  <rect width="430" height="226" fill="url(#ag)"   rx="14"/>
-  <rect width="428" height="224" x="1" y="1" fill="none"
+  <rect width="495" height="195" fill="{BG_CARD}" rx="14"/>
+  <rect width="495" height="195" fill="url(#ag)"   rx="14"/>
+  <rect width="493" height="193" x="1" y="1" fill="none"
         stroke="{VIOLET}" stroke-width="1" stroke-opacity="0.45" rx="14"/>
 
   <!-- Label -->
-  <rect x="20" y="20" width="108" height="25" fill="{VIOLET}" fill-opacity="0.15" rx="5"/>
-  <rect x="20" y="20" width="108" height="25" fill="none"
+  <rect x="18" y="16" width="108" height="24" fill="{VIOLET}" fill-opacity="0.15" rx="5"/>
+  <rect x="18" y="16" width="108" height="24" fill="none"
         stroke="{VIOLET}" stroke-width="0.8" stroke-opacity="0.5" rx="5"/>
-  <text x="74" y="37"
+  <text x="72" y="32"
         font-family="Outfit, sans-serif" font-weight="700" font-size="11"
         fill="{VIOLET_L}" text-anchor="middle" letter-spacing="2">WHO WE ARE</text>
 
-  <line x1="20" y1="62" x2="410" y2="62"
+  <line x1="18" y1="54" x2="477" y2="54"
         stroke="{VIOLET}" stroke-width="0.5" stroke-opacity="0.35"/>
 
   <!-- Body -->
-  <text x="20" y="88"
-        font-family="Outfit, sans-serif" font-weight="700" font-size="15"
+  <text x="18" y="76"
+        font-family="Outfit, sans-serif" font-weight="700" font-size="14"
         fill="{WHITE}">Born from passion. Built with precision.</text>
 
-  <text x="20" y="115" font-family="Outfit, sans-serif" font-size="12.5" fill="{MUTED}">
-    A team of developers with 3+ years in FiveM,
-  </text>
-  <text x="20" y="133" font-family="Outfit, sans-serif" font-size="12.5" fill="{MUTED}">
-    combining originality with optimal performance.
-  </text>
-  <text x="20" y="161" font-family="Outfit, sans-serif" font-size="12.5" fill="{MUTED}">
-    We craft scripts &amp; maps that bring a breath of
-  </text>
-  <text x="20" y="179" font-family="Outfit, sans-serif" font-size="12.5" fill="{MUTED}">
-    fresh air to every serious FiveM server.
-  </text>
+  <text x="18" y="100" font-family="Outfit, sans-serif" font-size="12" fill="{MUTED}">A team of developers with 3+ years in FiveM,</text>
+  <text x="18" y="116" font-family="Outfit, sans-serif" font-size="12" fill="{MUTED}">combining originality with optimal performance.</text>
+  <text x="18" y="140" font-family="Outfit, sans-serif" font-size="12" fill="{MUTED}">We craft scripts &amp; maps that bring a breath of</text>
+  <text x="18" y="156" font-family="Outfit, sans-serif" font-size="12" fill="{MUTED}">fresh air to every serious FiveM server.</text>
 
-  <line x1="20" y1="204" x2="410" y2="204"
+  <line x1="18" y1="174" x2="477" y2="174"
         stroke="{BLUE}" stroke-width="0.5" stroke-opacity="0.35"/>
-  <text x="20" y="218"
+  <text x="18" y="187"
         font-family="Outfit, sans-serif" font-size="10"
         fill="{BLUE}" letter-spacing="1" opacity="0.7">malibutechteam.com  \u2022  MBT</text>
 </svg>"""

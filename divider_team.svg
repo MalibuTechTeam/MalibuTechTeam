@@ -4,10 +4,10 @@
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
     ]]></style>
   </defs>
-  <rect width="880" height="50" fill="#111111"/>
-  <line x1="20"  y1="25" x2="338" y2="25" stroke="#7C3AED" stroke-width="0.7" stroke-opacity="0.5"/>
+  <rect width="880" height="50" fill="#000000"/>
+  <line x1="20"  y1="25" x2="338" y2="25" stroke="#208868" stroke-width="0.7" stroke-opacity="0.5"/>
   <text x="440" y="30"
         font-family="Outfit, sans-serif" font-weight="700" font-size="12"
-        fill="#8b5cf6" text-anchor="middle" letter-spacing="5">THE  TEAM</text>
-  <line x1="542" y1="25" x2="860" y2="25" stroke="#0ea5e9" stroke-width="0.7" stroke-opacity="0.5"/>
+        fill="#60a5fa" text-anchor="middle" letter-spacing="5">THE  TEAM</text>
+  <line x1="542" y1="25" x2="860" y2="25" stroke="#60a5fa" stroke-width="0.7" stroke-opacity="0.5"/>
 </svg>
