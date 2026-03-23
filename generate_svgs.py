@@ -15,20 +15,19 @@ Color palette (from mbt_tebexSite):
   --text-muted:      rgba(255,255,255,0.7)
 """
 
-# ── Palette (from logo: navy bg + emerald/mint green) ─────────────────────────
-BG        = "#0a1018"   # deep navy (darker than logo bg, for full-bleed sections)
-BG_CARD   = "#102038"   # logo background navy (card surfaces)
-PRIMARY   = "#4DD9A2"   # bright mint — logo highlight / main accent
-MID       = "#208868"   # mid emerald — logo M body
-DARK_G    = "#085848"   # deep green — logo M shadow
-ROSE      = "#f43f5e"   # rose — stars / destructive (from website)
+# ── Palette ────────────────────────────────────────────────────────────────────
+BG        = "#111111"
+BG_CARD   = "#1c1c1c"
+VIOLET    = "#7C3AED"
+VIOLET_L  = "#8b5cf6"
+BLUE      = "#0ea5e9"
+ROSE      = "#fa0552"
 WHITE     = "#ffffff"
 MUTED     = "#ffffffb3"
 
-# aliases kept for internal use
-VIOLET   = MID
-VIOLET_L = PRIMARY
-BLUE     = PRIMARY
+# aliases
+PRIMARY  = VIOLET
+MID      = VIOLET
 
 
 def generate_banner():
