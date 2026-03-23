@@ -51,57 +51,16 @@
 
 <br/>
 
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="46%" valign="top" align="center">
-      <img src="about.svg" width="100%" alt="About MalibuTechTeam"/>
-    </td>
-    <td width="8%"></td>
-    <td width="46%" valign="top" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Moldrok&count_private=true&show_icons=true&bg_color=102038&title_color=4DD9A2&text_color=ffffff&icon_color=208868&border_color=085848&border_radius=12" width="100%" alt="Moldrok Stats"/>
-      <br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moldrok&layout=compact&langs_count=6&bg_color=102038&title_color=4DD9A2&text_color=ffffff&border_color=085848&border_radius=12" width="100%" alt="Moldrok Languages"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="about.svg" width="720" alt="About MalibuTechTeam"/>
+</div>
 
 <br/>
 
-<div align="center">
-<table border="0" cellspacing="0" cellpadding="6">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Moldrok">
-        <img src="https://github-readme-stats.vercel.app/api?username=Moldrok&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true"/>
-        <br/><sub><b>Moldrok</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/DarkSide0fTheCode">
-        <img src="https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true"/>
-        <br/><sub><b>DarkSide0fTheCode</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/AndreIakko">
-        <img src="https://github-readme-stats.vercel.app/api?username=AndreIakko&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true"/>
-        <br/><sub><b>AndreIakko</b></sub>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moldrok&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8"/>
-    </td>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=DarkSide0fTheCode&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8"/>
-    </td>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=AndreIakko&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8"/>
-    </td>
-  </tr>
-</table>
-</div>
+| <a href="https://github.com/Moldrok">![Moldrok](https://github-readme-stats.vercel.app/api?username=Moldrok&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true)</a> | <a href="https://github.com/DarkSide0fTheCode">![DarkSide0fTheCode](https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true)</a> | <a href="https://github.com/AndreIakko">![AndreIakko](https://github-readme-stats.vercel.app/api?username=AndreIakko&show_icons=true&hide_border=true&bg_color=0a1018&title_color=4DD9A2&icon_color=208868&text_color=94A3B8&count_private=true)</a> |
+|:---:|:---:|:---:|
+| **Moldrok** | **DarkSide0fTheCode** | **AndreIakko** |
+| ![streak](https://github-readme-streak-stats.herokuapp.com/?user=Moldrok&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8) | ![streak](https://github-readme-streak-stats.herokuapp.com/?user=DarkSide0fTheCode&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8) | ![streak](https://github-readme-streak-stats.herokuapp.com/?user=AndreIakko&hide_border=true&background=0a1018&ring=4DD9A2&fire=208868&currStreakLabel=ffffff&sideLabels=94A3B8&dates=94A3B8) |
 
 <br/>
 <br/>
