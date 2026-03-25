@@ -17,7 +17,6 @@
   <a href="https://www.youtube.com/channel/UCv4m-40uyJu3gJkfQ_xMxxw"><img src="https://img.shields.io/badge/Scripts Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Script Videos"/></a>
   <a href="https://www.youtube.com/@iakkomaps8702"><img src="https://img.shields.io/badge/Maps Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Map Videos"/></a>
   <a href="https://discord.gg/tqk3kAEr4f"><img src="https://img.shields.io/discord/897197423502450769?style=for-the-badge&logo=discord&label=DISCORD&labelColor=000000&color=5865F2" alt="Discord"/></a>
-  <a href="https://ko-fi.com/malibutech"><img src="https://img.shields.io/badge/SUPPORT-fa0552?style=for-the-badge&logo=kofi&logoColor=white&labelColor=000000" alt="Support"/></a>
 </div>
 
 <br/>
