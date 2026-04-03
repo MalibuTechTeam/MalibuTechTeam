@@ -51,7 +51,7 @@ local MalibuTech = {
 
 ## the team
 
-| <a href="https://github.com/Moldrok">![Moldrok](https://github-readme-stats.vercel.app/api?username=Moldrok&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true)</a> | <a href="https://github.com/DarkSide0fTheCode">![DarkSide0fTheCode](https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true)</a> | <a href="https://github.com/AndreIakko">![AndreIakko](https://github-readme-stats.vercel.app/api?username=AndreIakko&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true)</a> |
+| <a href="https://github.com/Moldrok">![Moldrok](https://github-readme-stats.vercel.app/api?username=Moldrok&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true&cache_seconds=86400)</a> | <a href="https://github.com/DarkSide0fTheCode">![DarkSide0fTheCode](https://github-readme-stats.vercel.app/api?username=DarkSide0fTheCode&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true&cache_seconds=86400)</a> | <a href="https://github.com/AndreIakko">![AndreIakko](https://github-readme-stats.vercel.app/api?username=AndreIakko&show_icons=true&hide_border=true&bg_color=0d1b2e&title_color=60a5fa&icon_color=208868&text_color=94A3B8&count_private=true&cache_seconds=86400)</a> |
 |:---:|:---:|:---:|
 | **Moldrok** | **DarkSide0fTheCode** | **Iakko** |
 
