@@ -103,9 +103,9 @@ We make two kinds of things — and we try to make both exceptional.
 ---
 
 <div align="center">
-  <a href="https://malibu-tech.tebex.io/"><img src="https://img.shields.io/badge/%E2%86%92%20BROWSE%20SCRIPTS-0d5c8a?style=for-the-badge&logoColor=white" alt="Scripts"/></a>
+  <a href="https://malibutechteam.com/scripts"><img src="https://img.shields.io/badge/%E2%86%92%20BROWSE%20SCRIPTS-0d5c8a?style=for-the-badge&logoColor=white" alt="Scripts"/></a>
   &nbsp;
-  <a href="https://iakko-maps.tebex.io/"><img src="https://img.shields.io/badge/%E2%86%92%20BROWSE%20MAPS-208868?style=for-the-badge&logoColor=white" alt="Maps"/></a>
+  <a href="https://malibutechteam.com/maps"><img src="https://img.shields.io/badge/%E2%86%92%20BROWSE%20MAPS-208868?style=for-the-badge&logoColor=white" alt="Maps"/></a>
   &nbsp;
   <a href="https://malibutechteam.com/"><img src="https://img.shields.io/badge/%E2%86%92%20WEBSITE-fa0552?style=for-the-badge&logoColor=white" alt="Website"/></a>
   <br/><br/>
