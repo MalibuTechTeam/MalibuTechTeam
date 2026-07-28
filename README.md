@@ -11,8 +11,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://malibu-tech.tebex.io/"><img src="https://img.shields.io/badge/SCRIPTS-0d5c8a?style=for-the-badge&logo=Telegraph&logoColor=white&labelColor=000000" alt="Scripts"/></a>
-  <a href="https://iakko-maps.tebex.io/"><img src="https://img.shields.io/badge/MAPS-208868?style=for-the-badge&logo=Telegraph&logoColor=white&labelColor=000000" alt="Maps"/></a>
+  <a href="https://malibutechteam.com/"><img src="https://img.shields.io/badge/STORE-208868?style=for-the-badge&logo=Telegraph&logoColor=white&labelColor=000000" alt="Store"/></a>
   <a href="https://www.twitch.tv/malibutech"><img src="https://img.shields.io/badge/TWITCH-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=000000" alt="Twitch"/></a>
   <a href="https://www.youtube.com/channel/UCv4m-40uyJu3gJkfQ_xMxxw"><img src="https://img.shields.io/badge/Scripts Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Script Videos"/></a>
   <a href="https://www.youtube.com/@iakkomaps8702"><img src="https://img.shields.io/badge/Maps Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Map Videos"/></a>
